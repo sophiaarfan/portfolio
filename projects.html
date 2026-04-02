@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sophia Arfan</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">sophia arfan</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-wrap">
+    <div class="proj-top rev">
+      <span class="kicker">My work</span>
+      <h2 class="display" style="font-size:clamp(48px,7.5vw,96px)">Programming<br><em>Projects</em></h2>
+      <div class="proj-top-wm">WORK</div>
+    </div>
+
+    <div class="filter-bar rev" style="transition-delay:.1s">
+      <span class="fk">Filter by</span>
+      <button class="fb on" data-f="all">All</button>
+      <button class="fb" data-f="JavaScript">JavaScript</button>
+      <button class="fb" data-f="HTML">HTML</button>
+      <button class="fb" data-f="CSS">CSS</button>
+      <button class="fb" data-f="REST API">REST API</button>
+      <button class="fb" data-f="Chart.js">Chart.js</button>
+      <button class="fb" data-f="Anthropic API">Anthropic API</button>
+      <button class="fb" data-f="Vercel">Vercel</button>
+    </div>
+
+    <div class="all-grid" id="allGrid">
+
+      <!--Finance Analyzer project card-->
+      <div class="pc" data-t="JavaScript,HTML,CSS,Anthropic API">
+        <img src="images/financeAnalyzerSnapshot.png" alt="Finance Analyzer" class="pc-img-photo">
+        <div class="pc-body">
+          <div>
+            <h3 class="pc-title">Finance Analyzer</h3>
+            <h2 class="pc-subtitle">Investment Opportunity Analysis</h2>
+            <p class="pc-desc">
+              A web app that screens companies for investment fit using the Anthropic API and web search. 
+              Enter a company name, pick a strategy, and get a scored investment 
+              memo complete with red flags, key questions, and one-click PDF export
+            </p>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Anthropic API</span>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-year">2026</span>
+            <div class="pc-btns">
+              <a href="https://github.com/sophiaarfan/finance-analyzer" target="_blank"
+                class="pc-btn-gh">GitHub Repo</a>
+              <a href="https://finance-analyzer-two.vercel.app/" target="_blank" class="pc-btn-demo">Demo →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- GitHub Wrapped project card -->
+      <div class="pc" data-t="JavaScript,HTML,CSS,REST API,Chart.js,Anthropic API,Vercel">
+        <img src="images/gitWrappedSnapshot.png" alt="GitHub Wrapped" class="pc-img-photo">
+        <div class="pc-body">
+          <div>
+            <h3 class="pc-title">GitHub Wrapped</h3>
+            <h2 class="pc-subtitle">Developer Analytics Dashboard</h2>
+            <p class="pc-desc">
+              A Spotify Wrapped-style dashboard for your GitHub. 
+              Pulls repo and commit data through the GitHub REST API and turns it into 
+              visual stats: language breakdown, coding patterns, productivity trends, & 
+              with AI-generated developer archetypes via the Anthropic API.
+            </p>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Chart.js</span>
+              <span class="tag">REST API</span>
+              <span class="tag">Anthropic API</span>
+              <span class="tag">Vercel</span>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-year">2026</span>
+            <div class="pc-btns">
+              <a href="https://github.com/sophiaarfan/Git-Wrapped---Developer-Analytics-Dashboard.git" target="_blank"
+                class="pc-btn-gh">GitHub Repo</a>
+              <a href="https://git-wrapped-one.vercel.app/" target="_blank" class="pc-btn-demo">Demo →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Memory Match project card -->
+      <div class="pc" data-t="JavaScript,HTML,CSS">
+        <img src="images/memoryMatchSnapshot.png" alt="Memory Match" class="pc-img-photo">
+        <div class="pc-body">
+          <div>
+            <h3 class="pc-title">Memory Match</h3>
+            <h2 class="pc-subtitle">Card Game</h2>
+            <p class="pc-desc">
+              A browser-based memory card game with three difficulty levels, a live timer, 
+              a penalty system for wrong flips, and personal best tracking.
+               Built entirely with vanilla HTML, CSS, and JavaScript
+            </p>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-year">2026</span>
+            <div class="pc-btns">
+              <a href="https://github.com/sophiaarfan/Memory-Match.git" target="_blank"
+                class="pc-btn-gh">GitHub Repo</a>
+              <a href="https://sophiaarfan.github.io/memory-match/" target="_blank" class="pc-btn-demo">Demo →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Heart Clicker project card -->
+      <div class="pc" data-t="JavaScript,HTML,CSS">
+        <img src="images/heartClickerSnapshot.png" alt="Heart Clicker" class="pc-img-photo">
+        <div class="pc-body">
+          <div>
+            <h3 class="pc-title">Heart Clicker</h3>
+            <h2 class="pc-subtitle">Clicker Game</h2>
+            <p class="pc-desc">
+              An idle clicker game with a scaling upgrade shop, autoclicker, Super Heart mechanic, 
+              and milestone badge rewards. Built with vanilla HTML, CSS, and JavaScript.
+            </p>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-year">2026</span>
+            <div class="pc-btns">
+              <a href="https://github.com/sophiaarfan/Heart-Clicker.git" target="_blank"
+                class="pc-btn-gh">GitHub Repo</a>
+              <a href="https://sophiaarfan.github.io/heart-clicker/" target="_blank" class="pc-btn-demo">Demo →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Code Quiz project card -->
+      <div class="pc" data-t="JavaScript,HTML,CSS">
+        <img src="images/codeQuizSnapshot.png" alt="Code Quiz" class="pc-img-photo">
+        <div class="pc-body">
+          <div>
+            <h3 class="pc-title">Code Quiz</h3>
+            <h2 class="pc-subtitle">Quiz Game</h2>
+            <p class="pc-desc">
+              An interactive Python quiz that dynamically generates code snippets, 
+              challenging users to trace variable state and expression output. 
+              Helps users practice reading and understanding code without executing it, simulating a common first-year university courses' coding question format.
+            </p>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-year">2026</span>
+            <div class="pc-btns">
+              <a href="https://github.com/sophiaarfan/Code-Quiz.git" target="_blank"
+                class="pc-btn-gh">GitHub Repo</a>
+              <a href="https://sophiaarfan.github.io/code-quiz/" target="_blank" class="pc-btn-demo">Demo →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
